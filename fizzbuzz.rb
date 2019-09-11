@@ -3,6 +3,8 @@ def fizzbuzz(number)
     result = "Fizz"
   else number % 5 == 0
     result = "Buzz"
+  else number % 3 == 0 && number % 5 = 0
+    result = "FizzBuzz"
   end
 
   result
