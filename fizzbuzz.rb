@@ -4,8 +4,10 @@ def fizzbuzz(number)
     result = "FizzBuzz"
   elsif number % 3 == 0
     result = "Fizz"
-  else number % 5 == 0
+  elsif number % 5 == 0
     result = "Buzz"
+  else
+    result = nil
   end
 
   result
